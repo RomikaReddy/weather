@@ -1,0 +1,93 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 16px;
+  width: 250px;
+  max-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  /* Adjust the width as needed */
+}
+.back-arrow {
+  background: none;
+  border: none;
+  width: 50px;
+}
+.addicon {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+.card-container {
+  max-height: 500px;
+  overflow: auto;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 12px;
+  background-image: linear-gradient(180deg, #93c2e0 100%, #f7f7fa 100%);
+}
+.edit {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-top: 8px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+}
+/* Your existing CSS styles */
+/*
+Add a new class for name and temperature spacing */
+.temp-desc {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 500px;
+}
+.temp {
+  padding-left: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+.name-temp {
+  padding-left: 98px;
+}
+p {
+  display: flex;
+  justify-content: flex-end;
+}
+.city-management {
+  /* background-color: black; */
+
+  /* width: 300px; */
+  color: rgba(0, 102, 102, 0.5);
+  font-size: 30px;
+  border: violet;
+  border-radius: 5px;
+}
+.back-arrow {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+}
+.input {
+  font-weight: 20px;
+}
+.search2 {
+  width: 300px;
+  max-width: 250px;
+  height: 20px;
+}
